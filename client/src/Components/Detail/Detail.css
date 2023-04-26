@@ -1,0 +1,119 @@
+.detailscontainer {
+    flex-direction: flex;
+    background-image: url("https://img.freepik.com/fotos-premium/verduras-organicas-crudas-ingredientes-frescos-cocinar-forma-saludable-sobre-fondo-vintage-vista-superior-banner-concepto-comida-vegana-o-dietetica-diseno-fondo-espacio-texto-libre_197589-1227.jpg?w=826");
+    background-size:cover;
+    background-attachment: fixed;
+    
+    height: 110rem;
+}
+
+.titlerecipe {
+    
+    color: rgb(241, 244, 204);
+    width: 300px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: -2%;
+   
+}
+
+.imgyresumen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px 5px;
+    margin: 10px;
+    width: auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size:1.1em;
+}
+
+
+
+.recipecarac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 60px;
+    margin: 10px;
+    text-transform: capitalize;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1em;
+}
+
+.stepsinfo {
+    align-items: center;
+    justify-items: flex-end;
+    list-style-position: inside;
+    text-align: justify;
+    font-display: inherit;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.1em;
+}
+
+.titlesteps {
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(200, 78, 2);
+    font-family: Arial, Helvetica, Sans-serif;
+    font-weight: 800;
+    background-color: blue;
+   background-image: url("https://img.freepik.com/fotos-premium/verduras-organicas-crudas-ingredientes-frescos-cocinar-forma-saludable-sobre-fondo-vintage-vista-superior-banner-concepto-comida-vegana-o-dietetica-diseno-fondo-espacio-texto-libre_197589-1227.jpg?w=826");
+   padding: 5px 5px;
+   margin: 10px;
+   background-size:contain;
+   background-attachment: fixed;
+   border-radius: 100px;
+  
+}
+
+.botondevolver{
+    padding: 5px;
+    color: brown;
+}
+.titleResumen{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: rgb(200, 78, 2);
+    font-weight: 800;
+    background-image: url("https://img.freepik.com/fotos-premium/verduras-organicas-crudas-ingredientes-frescos-cocinar-forma-saludable-sobre-fondo-vintage-vista-superior-banner-concepto-comida-vegana-o-dietetica-diseno-fondo-espacio-texto-libre_197589-1227.jpg?w=826");
+   padding: 5px 5px;
+   margin: 10px;
+   border-radius: 100px;
+   background-size:contain;
+   background-attachment: fixed;
+    
+   
+}
+.imagen{
+    padding: 10px; margin: 70px; border: 10px solid rgb(200, 81, 7); float: right; width: 500px; 
+
+
+}
+
+.TextoTotal{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(107, 6, 15);
+    font-family: Arial, Helvetica, Sans-serif;
+    font-weight: 800;
+}
+.TextoPaso{
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 1.5em;
+    color: rgb(107, 6, 15);
+    font-weight: 800;
+
+}
